@@ -51,7 +51,7 @@ GO
 ALTER TABLE Customers ADD IsActive bit;
 ```
 
-PS - The solution tracks which SQL scripts have been run already, and runs the change scripts that are needed to get your database up to date. The migration data are stored in dbo.SchemaVersions
+PS - The migration data are stored in dbo.SchemaVersions
 
 ## Contributing
 We welcome contributions from the community! 
